@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "@fontsource/outfit/100";
+@import "@fontsource/outfit/200";
+@import "@fontsource/outfit/300";
+@import "@fontsource/outfit/400";
+@import "@fontsource/outfit/500";
+@import "@fontsource/outfit/600";
+@import "@fontsource/outfit/700";
+@import "@fontsource/outfit/800";
+@import "@fontsource/outfit/900";
+
+:root {
+  --default-font-family: 'Outfit';
+}
