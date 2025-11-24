@@ -24,14 +24,14 @@ export default function Footer() {
                     <p className="font-black text-xl">Plants Avenue</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nemo, magni, repellendus ab voluptates possimus, ut quam minus quia consequatur eum. Iste, earum quam modi omnis et magni culpa eum?</p>
                     <div className="flex gap-4 items-center justify-center text-green-950">
-                        <a href="/" className="p-2 flex items-center justify-center">
-                            <Facebook className="fill-gray-50 size-6"/>
+                        <a href="/" className="p-2 flex items-center justify-center group">
+                            <Facebook className="fill-white size-6 transition duration-300 group-hover:fill-orange-600"/>
                         </a>
-                        <a href="/" className="p-2 flex items-center justify-center">
-                            <Linkedin className="fill-gray-50 size-6"/>
+                        <a href="/" className="p-2 flex items-center justify-center group">
+                            <Linkedin className="fill-white size-6 transition duration-300 group-hover:fill-orange-600"/>
                         </a>
-                        <a href="/" className="p-2 flex items-center justify-center">
-                            <Instagram className="fill-gray-50 size-6"/>
+                        <a href="/" className="p-2 flex items-center justify-center group">
+                            <Instagram className="fill-white size-6 transition duration-300 group-hover:fill-orange-600"/>
                         </a>
                     </div>
                 </div>

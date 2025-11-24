@@ -18,7 +18,7 @@ export default function Nav() {
                 <span className="font-bold text-lg text-white">Plants Avenue</span>
             </div>
           </Link>
-          <div className={`transition-all duration-300 bg-gray-50 fixed inset-0 overflow-hidden md:ms-auto md:static md:overflow-visible md:bg-transparent ${(menu) ? 'h-screen' : 'h-0 md:h-fit'}`}>
+          <div className={`transition-all duration-300 bg-gray-50 fixed inset-0 overflow-hidden md:ms-auto md:static md:overflow-visible md:bg-transparent ${(menu) ? 'h-screen md:h-fit' : 'h-0 md:h-fit'}`}>
             <div className="flex items-center p-4 mx-auto container md:hidden">
               <Link to="/">
                 <div className="flex items-center gap-2 cursor-pointer">
